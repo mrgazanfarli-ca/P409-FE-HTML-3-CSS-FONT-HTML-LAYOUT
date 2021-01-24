@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Proxima Nova';
+}
+
+body {
+    margin: 0;
+}
+
+.opacity-tester {
+    width: 371px;
+    height: 371px;
+    background-color: #477774;
+    opacity: 1;
+    position: relative;
+}
+
+.opacity-tester p {
+    font-size: 24px;
+    font-weight: 500;
+    color: red;
+}
+
+.z-index-tester {
+    background-color: #db2147;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin-top: -10%;
+}
+
+.min-height-tester {
+    min-height: 140px;
+    max-height: 200px;
+    background-color: orangered;
+}
+
+.min-height-tester p {
+    font-size: 40px;
+    color: white;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.text-tester {
+    font-size: 24px;
+    color: #222;
+    font-size: 20px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.custom-camera-icon {
+    font-size: 36px;
+    color: orangered;
+}
+
+.color-green {
+    color: #2c5c46;
+}
+
+.logout-icon {
+    font-size: 40px;
+}
